@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sectionBookHomePage">
+        <div class="book-store-home-page">
+            <h1 class="home-page-heading">Popular Book</h1>
+            <div class="popular-book-container d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="popular-book-image" />
+                <div class="popular-book-short-details-container">
+                    <h1 class="popular-book-heading">Wings of Fire</h1>
+                    <p class="popular-book-text">
+                        An Autobiography of<br /> Abdul Kalam
+                    </p>
+                    <p class="popular-book-author">
+                        by Arun Tiwari
+                    </p>
+                    <button class="button btn-primary" onclick="display('sectionWingsOfFireBookDetails')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+            <h1 class="recommended-book-heading">Recommened Books</h1>
+            <div class="recommened-book-container d-flex flew-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="recommened-book-image" />
+                <div class="recommened-book-short-details-container">
+                    <h1 class="recommened-book-name">The 3 mistake of my life</h1>
+                    <p class="recommened-book-description">Indian author <br />by Chetan Bhagat</p>
+                    <button class="button btn-primary" onclick="display('sectionTheThreeMistakesOfMyLifeBookDetails')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="recommened-book-container d-flex flew-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="recommened-book-image" />
+                <div class="recommened-book-short-details-container">
+                    <h1 class="recommened-book-name">Harry Potter</h1>
+                    <p class="recommened-book-description">and the Sorcerer's<br />by J.K.Rowling</p>
+                    <button class="button btn-primary" onclick="display('sectionHarryPotterBookDetails')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionWingsOfFireBookDetails">
+        <div class="book-details-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="book-details-page-image" />
+            <h1 class="book-name">Wings of Fire</h1>
+            <p class="author">by Arun Tiwari</p>
+            <p class="book-description">
+                In the autobiography, Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs. Kalam started his career, after graduating from Aerospace engineering at Madras Institute of Technology, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype. Later he moved to ISRO and helped establish the Vikram Sarabhai Space Centre and pioneered the first space launch-vehicle program.
+            </p>
+            <button class="button btn btn-warning" onclick="display('sectionBookStoreHome')">
+                Back
+            </button>
+            <button class="button btn btn-primary">
+                Buy Now
+            </button>
+        </div>
+    </div>
+    <div id="sectionTheThreeMistakesOfMyLifeBookDetails">
+        <div class="book-details-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="book-details-page-image" />
+            <h1 class="book-name">The 3 mistake of my life</h1>
+            <p class="author">by Chetan Bhagat</p>
+            <p class="book-description">
+                This English national bestseller has been published in Gujarati language by a leading Gujarati book publisher, M.B.D., based in Ahmedabad & Mumbai. This book has been translated into Tamil and is published by Diamond Pocket Books.[1] The French translation was released by Cherche Midi publisher in March 2010 as Les 3 erreurs de ma vie. It was translated into Sinhala by Dileepa Jayakodi in 2011 as Thun Thakatheerukan Karapu Kenek Man.
+            </p>
+            <button class="button btn btn-warning" onclick="display('sectionBookStoreHome')">
+                Back
+            </button>
+            <button class="button btn btn-primary">
+                Buy Now
+            </button>
+        </div>
+    </div>
+    <div id="sectionHarryPotterBookDetails">
+        <div class="book-details-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="book-details-page-image" />
+            <h1 class="book-name">Harry Potter</h1>
+            <p class="author">by J.K.Rowling</p>
+            <p class="book-description">
+                Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).
+            </p>
+            <button class="button btn btn-warning" onclick="display('sectionBookStoreHome')">
+                Back
+            </button>
+            <button class="button btn btn-primary">
+                Buy Now
+            </button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
